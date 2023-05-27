@@ -33,7 +33,8 @@ index: # 配置首页个性化内容
     title: 关于
     text:
       - 「泛计算机爱好者
-      - 从业于神经科学」
+      - "　从业于神经科学"
+      - "　什么都会一点儿」"
 
 foot:
   title:
@@ -43,7 +44,7 @@ foot:
 #     url: https://github.com/hooozen/hexo-theme-tranquility
 
 social: # 账号
-  - name: "github"
+  - name: "Github"
     icon: "/images/logo-github.svg"
     url: https://github.com/myuanz
 
