@@ -8,11 +8,13 @@
 {% endblock link %}
 {% block body %}
   <div class="wall wall-index">
-    <div class="wall-main" id="wall-main">
-      <div class="wall-title">{{ config.title | upper }}</div>
-      <div class="wall-subtitle">{{ config.subtitle }}</div>
-      <div class="wall-description">{{ theme.slogan }}</div>
-    </div>
+    <a href="/blog/" style="text-decoration: none;">
+      <div class="wall-main" id="wall-main">
+        <div class="wall-title">{{ config.title | upper }}</div>
+        <div class="wall-subtitle">{{ config.subtitle }}</div>
+        <div class="wall-description">{{ theme.slogan }}</div>
+      </div>
+    </a>
     <div class="wall-bg">
       <div class="wall-bg-index">
         <div class="hello-world">
