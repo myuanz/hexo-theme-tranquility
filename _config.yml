@@ -98,8 +98,8 @@ custom_font:
   extName: "ttf"
   folder: "font/SourceHanSerifCN/"
   subFamily:
-    - regular.ttf
-    - bold.ttf
+    - SourceHanSerifCN-Regular.otf
+    - SourceHanSerifCN-Bold.otf
   targetPath: "font/"
 
 # 配置时间线 参考 README.md
