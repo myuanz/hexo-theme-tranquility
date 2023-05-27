@@ -1,8 +1,7 @@
-slogan: “宁静致远”
-email: example@email.com
+slogan: 
+email: provefars@gmail.com
 logo: "/images/logo.svg"
-
-mathjax: false # 加载 LateX 数学公式库
+mathjax: true # 加载 LateX 数学公式库
 
 favicon: # 配置网页图标
   small: /images/favicon-16x16.png
@@ -25,39 +24,28 @@ subpage: # 开启“子页”功能，详见 README
       description: # 描述
 
 index: # 配置首页个性化内容
-  motto: "应无所住 而生其心"
-  poem:
-    - 君不见高堂明镜悲白发
-    - 朝如青丝暮成雪
-  photo: /images/about.jpg
+  # motto: "应无所住 而生其心"
+  # poem:
+  #   - 君不见高堂明镜悲白发
+  #   - 朝如青丝暮成雪
+  # photo: /images/about.jpg
   about:
     title: 关于
     text:
-      - 酒入豪肠,七分酿成了月光
-      -
-      - 余下的三分啸成剑气
-      -
-      - 绣口一吐就半个盛唐
+      - 「泛计算机爱好者
+      - 从业于神经科学」
 
 foot:
   title:
-    - "海内存知己"
-    - "天涯若比邻"
 
-links: # 朋友
-  - name: "Theme Tranquility"
-    url: https://github.com/hooozen/hexo-theme-tranquility
+# links: # 朋友
+#   - name: "Theme Tranquility"
+#     url: https://github.com/hooozen/hexo-theme-tranquility
 
 social: # 账号
   - name: "github"
     icon: "/images/logo-github.svg"
-    url: https://github.com/
-  - name: "微信公众号"
-    icon: "/images/logo-wx.svg"
-    url: https://mp.weixin.qq.com/s?__biz=MzI3NzQ4NDkzNg==&mid=2247484469&idx=1&sn=8a442bb67397f52cce5c38c3f9b41e36&chksm=eb64c0d2dc1349c40d2e1bb55615ae28b3f2951be22f00717b9ade98c851082e42dc666ab45d#rd
-  - name: "知乎"
-    icon: "/images/logo-zh.svg"
-    url: https://www.zhihu.com/
+    url: https://github.com/myuanz
 
 reward: # 赞赏
   enable: false
@@ -115,7 +103,7 @@ custom_font:
 
 # 配置时间线 参考 README.md
 timeline:
-  enable: true
+  enable: false
   order: false # 是否按时间正序展示，false 为倒序
   items:
     - name: article
